@@ -19,7 +19,7 @@ export default function Login({ saveUserDate }) {
         if (res?.data?.message === 'success') {
             localStorage.setItem('userToken', res?.data.token);
             saveUserDate();
-            toast("Welcome 😍", { duration:1000 });
+            toast("Welcome", { duration:1000 });
             navigate('/');
         }
         else {
@@ -71,3 +71,4 @@ export default function Login({ saveUserDate }) {
         </div>
     </>
 }
+// BENZO  

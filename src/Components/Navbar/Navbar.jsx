@@ -74,7 +74,7 @@ export default function Navbar({ userData, logOut }) {
                                 </li>
 
                                 <li className="nav-item">
-                                    <Link className="nav-link ms-1" onClick={() => { logOut("Bay bay 😢"); }} >Logout</Link>
+                                    <Link className="nav-link ms-1" onClick={() => { logOut("Thanks for visit"); }} >Logout</Link>
                                 </li>
                             </>
                         }
@@ -85,3 +85,4 @@ export default function Navbar({ userData, logOut }) {
 
     </>
 }
+// BENZO  

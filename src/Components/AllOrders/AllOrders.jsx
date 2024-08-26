@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom';
 import { cartContext } from '../../Context/CartContext.jsx';
-// import jwtDecode from 'jwt-decode';
+import {jwtDecode} from 'jwt-decode';
 import Loader from '../Loader/Loader.jsx';
 import { Helmet } from 'react-helmet';
 import noOrders from '../../assets/Empty-Orders.svg'
@@ -74,7 +74,7 @@ export default function AllOrders() {
 
         <div className='pt-4 pb-5'>
             {ordersList?.length > 0 ? <>
-                <h1>All Orders</h1>
+                <h1>Orders</h1>
                 <div className="accordion" id="accordionExample">
 
                     {ordersList?.reverse().map((order) => <div key={order?._id} className="accordion-item">
@@ -165,3 +165,4 @@ export default function AllOrders() {
 
 
 }
+// BENZO  
