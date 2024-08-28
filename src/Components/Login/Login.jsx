@@ -45,7 +45,7 @@ export default function Login({ saveUserDate }) {
 
     return <>
         <Helmet>
-            <title>Lpogin</title>
+            <title>Login</title>
         </Helmet>
         <div className="w-75 mx-auto py-5 my-5">
             <h3>Login Now : </h3>
